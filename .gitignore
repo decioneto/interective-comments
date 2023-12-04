@@ -34,3 +34,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Arquivos específicos do Docker Compose
+docker-compose.yml
+docker-compose.override.yml
+.env
+
+# Diretórios específicos do Docker
+.docker/
+
+# Arquivos específicos do PostgreSQL (se aplicável)
+data/

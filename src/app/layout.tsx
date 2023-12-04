@@ -11,7 +11,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${rubik.className} bg-very-light min-h-screen w-full`}
+                className={`${rubik.className} bg-very-light h-screen w-full`}
             >
                 {children}
             </body>
