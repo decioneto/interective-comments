@@ -1,5 +1,5 @@
 import { Icon } from '@phosphor-icons/react';
-import { ComponentProps, ElementType } from 'react';
+import { ComponentProps } from 'react';
 import { tv, VariantProps } from 'tailwind-variants';
 
 type ButtonVariants = VariantProps<typeof button> & ComponentProps<'button'>;
